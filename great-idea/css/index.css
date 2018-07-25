@@ -165,7 +165,7 @@ header img {
 	box-shadow .2s, text-shadow .2s;
 }
 
-.banner a:hover{
+.banner a:hover, .main-content section a:hover{
 background-color: #000;
 color: #FFF;
 text-shadow:lightgreen 0 0 10px;
@@ -267,11 +267,14 @@ footer {
 	color: #000;
 	text-decoration: none;
 	margin-top: 20px;
+	transition: background-color .2s, color .2s, 
+	box-shadow .2s, text-shadow .2s;
 }
 
 .facts-about{
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap-reverse;
 }
 
 .facts-about div{

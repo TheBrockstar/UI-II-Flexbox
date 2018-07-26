@@ -96,6 +96,7 @@ header {
 	left: 0;
 	background-color:dodgerblue;
 	margin:none;
+	z-index: 5;
 }
 
 /* Navigation */
@@ -166,10 +167,10 @@ header img {
 }
 
 .banner a:hover, .main-content section a:hover{
-background-color: #000;
-color: #FFF;
-text-shadow:lightgreen 0 0 10px;
-box-shadow:lightgreen 0 0 10px;
+	background-color: #000;
+	color: #FFF;
+	text-shadow:lightgreen 0 0 10px;
+	box-shadow:lightgreen 0 0 10px;
 }
 
 
@@ -299,7 +300,7 @@ footer {
 	animation-duration: 3s;
 	animation-timing-function: ease;
 	animation-iteration-count:infinite;
-	z-index: -999;
+	z-index: 0;
 }
 
 @keyframes blink{

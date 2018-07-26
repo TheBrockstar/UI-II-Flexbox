@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	z-index: 2;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -300,7 +299,7 @@ footer {
 	animation-duration: 3s;
 	animation-timing-function: ease;
 	animation-iteration-count:infinite;
-
+	z-index: -999;
 }
 
 @keyframes blink{

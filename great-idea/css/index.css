@@ -301,6 +301,8 @@ footer {
 	animation-timing-function: ease;
 	animation-iteration-count:infinite;
 	z-index: 0;
+	outline: solid 20px dodgerblue;
+    border: solid 10px #1e90ffb0;
 }
 
 @keyframes blink{
